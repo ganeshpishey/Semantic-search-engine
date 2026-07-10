@@ -66,11 +66,8 @@ local-enterprise-rag/
 │
 ├── app/
 │   ├── main.py
-│   ├── ui.py
-│   
-│   
-│   
-│   
+│   |── ui.py   
+│
 │
 ├── requirements.txt
 └── README.md
@@ -84,7 +81,7 @@ local-enterprise-rag/
 
 ```bash
 git clone https://github.com/ganeshpishey/Semantic-search-engine.git
-cd local-enterprise-rag
+cd Semantic-search-engine
 ```
 
 ### 2. Start Oracle Database 23ai Container
