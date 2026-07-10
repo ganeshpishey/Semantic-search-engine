@@ -25,6 +25,7 @@ The platform uses a decoupled microservices blueprint to separate the user inter
 
 ---
 
+
 ## 🔧 Installation & Local Setup
 
 Run the following commands sequentially in your terminal window to initialize the complete infrastructure ecosystem:
@@ -47,7 +48,7 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-### 5. Configure Environment Variables
+# 5. Configure Environment Variables
 Create a file named .env inside your repository root folder:
 
 DB_USER=system
@@ -56,7 +57,7 @@ DB_DSN=localhost:1521/FREEPDB1
 OLLAMA_BASE_URL=http://localhost:11434
 
 
----
+
 
 ## Execution Pipeline
 
