@@ -67,13 +67,12 @@ local-enterprise-rag/
 ├── app/
 │   ├── main.py
 │   ├── ui.py
-│   ├── api/
-│   ├── services/
-│   ├── database/
-│   └── models/
+│   
+│   
+│   
+│   
 │
 ├── requirements.txt
-├── .env
 └── README.md
 ```
 
@@ -84,7 +83,7 @@ local-enterprise-rag/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/local-enterprise-rag.git
+git clone https://github.com/ganeshpishey/Semantic-search-engine.git
 cd local-enterprise-rag
 ```
 
@@ -202,30 +201,3 @@ Response Display
 (Streamlit UI)
 ```
 
----
-
-## 🔐 Security Features
-
-- 100% local execution
-- No external cloud dependencies
-- Enterprise document privacy
-- Air-gapped deployment capability
-- Local vector storage
-- On-premise inference
-
----
-
-## 🎯 Key Features
-
-- Local RAG pipeline
-- Oracle 23ai native vector search
-- FastAPI backend services
-- Streamlit dashboard interface
-- Ollama-powered local inference
-- Enterprise document processing
-- Context-aware conversational search
-- Zero cloud dependency
-- Docker-based deployment
-- Production-ready architecture
-
----
